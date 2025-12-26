@@ -1,0 +1,97 @@
+[gd_scene load_steps=11 format=3 uid="uid://ciqspv5cvn5wv"]
+
+[ext_resource type="Script" path="res://code/minigame_2.gd" id="1_g8kbj"]
+[ext_resource type="Texture2D" uid="uid://dqqm4awt5guwx" path="res://BG/minigame2.png" id="2_kjaco"]
+[ext_resource type="Texture2D" uid="uid://jji8kbtidaog" path="res://sprites/minigame2_teacher.png" id="3_5m07w"]
+[ext_resource type="Texture2D" uid="uid://cka7uqki1ioek" path="res://sprites/minigame2_Ai.png" id="4_76sir"]
+[ext_resource type="Texture2D" uid="uid://cswt8jm2abqkw" path="res://sprites/minigame2_bar.png" id="5_wdp0f"]
+[ext_resource type="FontFile" uid="uid://780inmkfh6x4" path="res://fonts/Silkscreen-Bold.ttf" id="6_orakx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wxrpj"]
+size = Vector2(2, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2gndg"]
+size = Vector2(21, 10)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a2k4g"]
+size = Vector2(256, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e830u"]
+size = Vector2(20.5, 120)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_g8kbj")
+
+[node name="Minigame2" type="Sprite2D" parent="."]
+texture = ExtResource("2_kjaco")
+centered = false
+
+[node name="teacher" type="Sprite2D" parent="."]
+position = Vector2(155, 131)
+texture = ExtResource("3_5m07w")
+
+[node name="Ai" type="Sprite2D" parent="."]
+position = Vector2(42, 136)
+texture = ExtResource("4_76sir")
+
+[node name="bar1" type="Sprite2D" parent="."]
+position = Vector2(154, 65)
+scale = Vector2(2, 2)
+texture = ExtResource("5_wdp0f")
+
+[node name="bar1_area" type="Area2D" parent="bar1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bar1/bar1_area"]
+shape = SubResource("RectangleShape2D_wxrpj")
+
+[node name="bar2" type="Sprite2D" parent="."]
+position = Vector2(36, 65)
+scale = Vector2(2, 2)
+texture = ExtResource("5_wdp0f")
+
+[node name="bar2_area" type="Area2D" parent="bar2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bar2/bar2_area"]
+shape = SubResource("RectangleShape2D_wxrpj")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 104.0
+offset_top = 54.0
+offset_right = 144.0
+offset_bottom = 77.0
+theme_override_fonts/font = ExtResource("6_orakx")
+theme_override_font_sizes/font_size = 8
+
+[node name="Area2D" type="Area2D" parent="Label"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Label/Area2D"]
+position = Vector2(22.5, 12)
+shape = SubResource("RectangleShape2D_2gndg")
+
+[node name="bounce_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bounce_area"]
+position = Vector2(121, 11)
+shape = SubResource("RectangleShape2D_a2k4g")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="bounce_area"]
+position = Vector2(95, 122)
+shape = SubResource("RectangleShape2D_a2k4g")
+
+[node name="player_dmg" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player_dmg"]
+position = Vector2(17, 68)
+shape = SubResource("RectangleShape2D_e830u")
+
+[node name="teacher_dmg" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="teacher_dmg"]
+position = Vector2(174.25, 67)
+shape = SubResource("RectangleShape2D_e830u")
+
+[node name="ball_spawn_area" type="Node2D" parent="."]
+position = Vector2(112, 65)
+
+[connection signal="area_shape_entered" from="bar1/bar1_area" to="." method="_on_bar_1_area_area_shape_entered"]
+[connection signal="area_shape_entered" from="bar2/bar2_area" to="." method="_on_bar_2_area_area_shape_entered"]

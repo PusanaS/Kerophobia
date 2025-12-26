@@ -1,0 +1,198 @@
+[gd_scene load_steps=19 format=3 uid="uid://c2idcxfewa7mx"]
+
+[ext_resource type="Texture2D" uid="uid://bklp4rqxk5oda" path="res://BG/minigame1.png" id="1_7v0du"]
+[ext_resource type="Script" path="res://code/minigame_1.gd" id="1_j5fhf"]
+[ext_resource type="Texture2D" uid="uid://xq306n64strv" path="res://sprites/minigame1_frog.png" id="2_k77v6"]
+[ext_resource type="PackedScene" uid="uid://bv1kdtflud1ky" path="res://scenes/firefly.tscn" id="2_sqfh0"]
+[ext_resource type="FontFile" uid="uid://780inmkfh6x4" path="res://fonts/Silkscreen-Bold.ttf" id="3_kfnpr"]
+[ext_resource type="Texture2D" uid="uid://djn6xyp2cygmx" path="res://sprites/Ui_bar_under.png" id="5_fww4a"]
+[ext_resource type="Texture2D" uid="uid://cprpkhr2b6toc" path="res://sprites/Ui_bar_energy.png" id="6_rgvjb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p2dh5"]
+atlas = ExtResource("2_k77v6")
+region = Rect2(0, 0, 38, 129)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dal1h"]
+atlas = ExtResource("2_k77v6")
+region = Rect2(114, 0, 38, 129)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qthcg"]
+atlas = ExtResource("2_k77v6")
+region = Rect2(152, 0, 38, 129)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3o5ig"]
+atlas = ExtResource("2_k77v6")
+region = Rect2(38, 0, 38, 129)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eg248"]
+atlas = ExtResource("2_k77v6")
+region = Rect2(76, 0, 38, 129)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_66237"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p2dh5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dal1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qthcg")
+}],
+"loop": false,
+"name": &"high_shoot",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3o5ig")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eg248")
+}],
+"loop": false,
+"name": &"low_shoot",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eg248")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dal1h")
+}],
+"loop": false,
+"name": &"middle_shoot",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qrfua"]
+size = Vector2(20, 60)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bwxrc"]
+size = Vector2(20, 83)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_05ia7"]
+size = Vector2(20, 112)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0sot"]
+size = Vector2(20, 191)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_njx27"]
+size = Vector2(190, 20)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_j5fhf")
+firefly_scene = ExtResource("2_sqfh0")
+
+[node name="Minigame1" type="Sprite2D" parent="."]
+texture = ExtResource("1_7v0du")
+centered = false
+
+[node name="PlayerPosition" type="Node" parent="."]
+
+[node name="center" type="Node2D" parent="PlayerPosition"]
+position = Vector2(92, 93)
+
+[node name="Left" type="Node2D" parent="PlayerPosition"]
+position = Vector2(42, 91)
+
+[node name="Right" type="Node2D" parent="PlayerPosition"]
+position = Vector2(145, 92)
+
+[node name="frog" type="AnimatedSprite2D" parent="."]
+position = Vector2(96, 89)
+sprite_frames = SubResource("SpriteFrames_66237")
+animation = &"low_shoot"
+
+[node name="low" type="Area2D" parent="frog"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="frog/low"]
+position = Vector2(0, 20)
+shape = SubResource("RectangleShape2D_qrfua")
+disabled = true
+
+[node name="mid" type="Area2D" parent="frog"]
+position = Vector2(0, -25)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="frog/mid"]
+position = Vector2(0, 33.5)
+shape = SubResource("RectangleShape2D_bwxrc")
+disabled = true
+
+[node name="high" type="Area2D" parent="frog"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="frog/high"]
+position = Vector2(0, -6)
+shape = SubResource("RectangleShape2D_05ia7")
+disabled = true
+
+[node name="timer" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("3_kfnpr")
+theme_override_font_sizes/font_size = 14
+
+[node name="scores" type="Label" parent="."]
+offset_left = 2.0
+offset_top = 16.0
+offset_right = 42.0
+offset_bottom = 39.0
+theme_override_fonts/font = ExtResource("3_kfnpr")
+theme_override_font_sizes/font_size = 10
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_left = 121.0
+offset_top = 184.0
+offset_right = 187.0
+offset_bottom = 224.0
+texture_under = ExtResource("5_fww4a")
+texture_progress = ExtResource("6_rgvjb")
+
+[node name="border" type="Node2D" parent="."]
+
+[node name="left" type="Area2D" parent="border"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="border/left"]
+position = Vector2(-10, 75.5)
+shape = SubResource("RectangleShape2D_h0sot")
+
+[node name="right" type="Area2D" parent="border"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="border/right"]
+position = Vector2(200, 76)
+shape = SubResource("RectangleShape2D_h0sot")
+
+[node name="top" type="Area2D" parent="border"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="border/top"]
+position = Vector2(95, -10)
+shape = SubResource("RectangleShape2D_njx27")
+
+[node name="bottom" type="Area2D" parent="border"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="border/bottom"]
+position = Vector2(95, 161)
+shape = SubResource("RectangleShape2D_njx27")
+
+[node name="Spawner" type="Node" parent="."]
+
+[node name="Left" type="Node2D" parent="Spawner"]
+position = Vector2(43, 67)
+
+[node name="Right" type="Node2D" parent="Spawner"]
+position = Vector2(133, 66)
+
+[connection signal="area_entered" from="frog/low" to="." method="_on_low_area_entered"]
+[connection signal="area_entered" from="frog/mid" to="." method="_on_mid_area_entered"]
+[connection signal="area_entered" from="frog/high" to="." method="_on_high_area_entered"]
+[connection signal="area_entered" from="border/left" to="." method="_on_left_area_entered"]
+[connection signal="area_entered" from="border/right" to="." method="_on_right_area_entered"]
+[connection signal="area_entered" from="border/top" to="." method="_on_top_area_entered"]
+[connection signal="area_entered" from="border/bottom" to="." method="_on_bottom_area_entered"]
