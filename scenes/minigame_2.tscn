@@ -93,5 +93,28 @@ shape = SubResource("RectangleShape2D_e830u")
 [node name="ball_spawn_area" type="Node2D" parent="."]
 position = Vector2(112, 65)
 
+[node name="Tscore" type="Label" parent="."]
+offset_left = 141.0
+offset_top = 164.0
+offset_right = 181.0
+offset_bottom = 187.0
+theme_override_fonts/font = ExtResource("6_orakx")
+
+[node name="Aiscore" type="Label" parent="."]
+offset_left = 22.0
+offset_top = 164.0
+offset_right = 62.0
+offset_bottom = 187.0
+theme_override_fonts/font = ExtResource("6_orakx")
+
+[node name="_label" type="Label" parent="."]
+offset_left = 78.0
+offset_top = 143.0
+offset_right = 118.0
+offset_bottom = 166.0
+theme_override_fonts/font = ExtResource("6_orakx")
+theme_override_font_sizes/font_size = 9
+text = "Win=9"
+
 [connection signal="area_shape_entered" from="bar1/bar1_area" to="." method="_on_bar_1_area_area_shape_entered"]
 [connection signal="area_shape_entered" from="bar2/bar2_area" to="." method="_on_bar_2_area_area_shape_entered"]

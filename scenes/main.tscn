@@ -592,7 +592,7 @@ centered = false
 [node name="Bg" type="AnimatedSprite2D" parent="DialogueManager"]
 position = Vector2(103, 14)
 sprite_frames = SubResource("SpriteFrames_mrf7k")
-animation = &"night_butterfly_1"
+animation = &"night_explore_1"
 centered = false
 
 [node name="Cha" type="AnimatedSprite2D" parent="DialogueManager"]

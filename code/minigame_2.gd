@@ -24,6 +24,8 @@ var base_speed = 120  # ความเร็วพื้นฐาน
 # Score
 var player_score = 0
 var teacher_score = 0
+@onready var player_score_label =$Aiscore
+@onready var teacher_score_label = $Tscore
 
 # Boundary limits
 var top_boundary = 0
@@ -101,6 +103,8 @@ func _process(delta):
 	update_ball(delta)
 	update_teacher_ai(delta)
 	update_player_input(delta)
+	player_score_label.text = str(player_score)
+	teacher_score_label.text = str(teacher_score)
 
 # ===== BALL MOVEMENT =====
 func update_ball(delta):

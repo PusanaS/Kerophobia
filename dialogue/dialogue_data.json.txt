@@ -1,8 +1,8 @@
 [
   {
 	"id": "Intro_1",
-	"name": "อัยย์",
-	"dialogue": "นี่คือโรงเรียนที่ฉันกำลังเรียนอยู่ ทุกอย่างที่เคยดูปกติมันไม่ปกติอีกต่อไป",
+	"name": "Ai",
+	"dialogue": "This is the school where I'm studying. Everything that used to seem normal isn't normal anymore.",
 	"next": "Intro_2",
 	"background": "school",
 	"cha_sprite": "blank",
@@ -10,8 +10,8 @@
   },
   {
 	"id": "Intro_2",
-	"name": "อัยย์",
-	"dialogue": "นี่ั่นเป็นเพราะสองสามวันมานี้ เกิดเรื่องที่เล่าให้ใครฟังก็ไม่น่าจะเข้าใจน่ะสิ",
+	"name": "Ai",
+	"dialogue": "This is because these past few days, something happened that I wouldn't expect anyone to understand if I told them.",
 	"next": "Intro_3",
 	"background": "school",
 	"cha_sprite": "blank",
@@ -19,8 +19,8 @@
   },
   {
 	"id": "Intro_3",
-	"name": "อัยย์",
-	"dialogue": "ฉัน กลายเป็นกบค่ะ ทีแรกก็คิดว่าฝัน แต่เพิ่งมารู้ตัวว่ามันเป็นความจริง แบบโคตรจริงเลยค่ะ",
+	"name": "Ai",
+	"dialogue": "I turned into a frog. At first I thought it was a dream, but I just realized it's real. Like, seriously real",
 	"next": "Intro_4",
 	"background": "school",
 	"cha_sprite": "blank",
@@ -28,8 +28,8 @@
   },
   {
 	"id": "Intro_4",
-	"name": "อัยย์",
-	"dialogue": "ในสถานการณ์แบบนี้ คนเดียวที่เหมือนจะไม่เคยแผ่ออร่าทุกข์ร้อนให้เห็นเลย  ก็เข้ามาทักแบบไม่รู้เรื่องรู้ราว",
+	"name": "Ai",
+	"dialogue": "In this situation, the only person who never seemed to radiate any distress just came up to talk without having a clue",
 	"next": "Intro_5",
 	"background": "hallway",
 	"cha_sprite": "blank",
@@ -37,8 +37,8 @@
   },
   {
 	"id": "Intro_5",
-	"name": "มะลิ",
-	"dialogue": "อัยย์ พระอาทิตย์ตัวน้อยของเค้าา ทำไมทำหน้าแบบนี้คะ ทำหน้าหมองแบบนี้เดี๋ยวก็ไปทำวันของใครเค้าแย่ลงหรอก",
+	"name": "Mali",
+	"dialogue": "Ai, my little sunshine. Why are you making that face? If you look gloomy like this, you'll just make someone else's day worse.",
 	"next": "Intro_6",
 	"background": "hallway",
 	"cha_sprite": "Mali_love",
@@ -46,8 +46,8 @@
   },
   {
 	"id": "Intro_6",
-	"name": "มะลิ",
-	"dialogue": "หรือว่ามีเรื่องอะไรรึเปล่า",
+	"name": "Mali",
+	"dialogue": "Or is something wrong?",
 	"next": "Intro_7",
 	"background": "hallway",
 	"cha_sprite": "Mali_stare",
@@ -55,11 +55,11 @@
   },
   {
 	"id": "Intro_7",
-	"name": "มะลิ",
-	"dialogue": "ถ้ามีเรื่องอะไรล่ะก็ อัยย์บอกเค้าได้ทุกเรื่องเลยนะ",
-	"choice_A": "ไม่เชื่อหรอก",
+	"name": "Mali",
+	"dialogue": "If there's anything wrong, you can tell me anything, okay?",
+	"choice_A": "wouldn't believe me",
 	"next_A": "Intro_8A",
-	"choice_B": "ปฎิเสธ",
+	"choice_B": "Decline",
 	"next_B": "Intro_8B",
 	"background": "hallway",
 	"cha_sprite": "Mali_stare",
@@ -67,8 +67,8 @@
   },
   {
 	"id": "Intro_8A",
-	"name": "อัยย์",
-	"dialogue": "บอกไปมะลิก็ไม่เชื่อหรอก",
+	"name": "AI",
+	"dialogue": "If I told you, Mali wouldn't believe me anyway.",
 	"next": "Intro_9A",
 	"background": "hallway",
 	"cha_sprite": "Mali_stare",
@@ -76,8 +76,8 @@
   },
   {
 	"id": "Intro_8B",
-	"name": "อัยย์",
-	"dialogue": "เปล่า ไม่มีอะไรหรอก มะลิคิดมากไปเองหรือเปล่า",
+	"name": "AI",
+	"dialogue": "No, nothing's wrong. Are you overthinking it?",
 	"next": "Intro_9B",
 	"background": "hallway",
 	"cha_sprite": "Mali_stare",
@@ -86,7 +86,7 @@
   {
 	"id": "Intro_9A",
 	"name": "มะลิ",
-	"dialogue": "หึ้ย อย่าบอกนะว่าจริงๆแล้วอัยย์เป็นสาวน้อยเวทมนตร์แอบปกหป้องโลกตอนกลางคืน !?",
+	"dialogue": "Huh? Don't tell me you're actually a magical girl secretly protecting the world at night!?",
 	"next": "Intro_10A",
 	"background": "hallway",
 	"cha_sprite": "Mali_love",
@@ -94,8 +94,8 @@
   },
   {
 	"id": "Intro_10A",
-	"name": "อัยย์",
-	"dialogue": "(ก็ถูกครึ่งนึงอะนะ คนๆนี้เซนส์ดีหรือแค่เบียวเฉยๆชั้นแยกไม่ออกจริงๆ\nแต่เรื่องนี้เท่านั้นที่ปล่อยให้เธอรู้ไม่ได้ เพราะรู้ไปก็จะช่วยอะไรไม่ได้อยู่ดี)",
+	"name": "AI",
+	"dialogue": "(Well, she's half right. I can't tell if this person has good intuition or is just clueless.\nBut this is the one thing I can't let her know. Because knowing won't help anything anyway.",
 	"next": "Intro_11",
 	"background": "hallway",
 	"cha_sprite": "Mali_smile",
@@ -104,7 +104,7 @@
   {
 	"id": "Intro_9B",
 	"name": "มะลิ",
-	"dialogue": "โธ่ว ค่าความสนิทของเค้ากับอัยย์ยังไม่พอที่จะเปิดรูทซีเคร็ตสินะ\nไม่เป็นไร เดี๋ยวเค้าจะให้ขนอัยย์กินทุกวันจนกว่าอัยย์จะยอมบอกเอง",
+	"dialogue": "Aww, my closeness level with Ai isn't enough to unlock the secret route yet.\nThat's okay, I'll give Ai snacks every day until you agree to tell me.",
 	"next": "Intro_10B",
 	"background": "hallway",
 	"cha_sprite": "Mali_smile",
@@ -112,8 +112,8 @@
   },
   {
 	"id": "Intro_10B",
-	"name": "อัยย์",
-	"dialogue": "(ไม่รู้ว่าเธอรู้ตัวมั้ยแต่การที่เธอไม่ตัดสินเราแบบนี้มันฮีลใจเราได้ตลอดเลยจริงๆ)",
+	"name": "AI",
+	"dialogue": "(I don't know if she realizes it, but the fact that she doesn't judge me like this really heals my heart every time.)",
 	"next": "Intro_11",
 	"background": "hallway",
 	"cha_sprite": "Mali_smile",
@@ -121,8 +121,8 @@
   },
   {
 	"id": "Intro_11",
-	"name": "อัยย์",
-	"dialogue": "แล้วก็เริ่มคาบเรียน จากที่ทุกวันในโรงเรียนเป็นวันที่น่าเบื่อ \nแต่ตอนนี้มันกลับกลายเป็นเซฟโซนให้เราได้พักจากการเอาตัวรอดยามค่ำคืนที่น่ากลัว",
+	"name": "AI",
+	"dialogue": "And then class started. Every day at school used to be boring, but now it's become a safe zone for me to rest from the terrifying night survival",
 	"next": "Intro_12",
 	"background": "hallway",
 	"cha_sprite": "blank",
@@ -130,8 +130,8 @@
   },
   {
 	"id": "Intro_12",
-	"name": "อัยย์",
-	"dialogue": "ไม่นะ ภาษาอังกฤษ ฉันเกลียดภาษาอังกฤษ",
+	"name": "AI",
+	"dialogue": "No, English class. I hate English.",
 	"next": "Intro_13",
 	"background": "classroom",
 	"cha_sprite": "blank",
@@ -139,8 +139,8 @@
   },
   {
 	"id": "Intro_13",
-	"name": "ครูเพ็ญศรี",
-	"dialogue": "กูดมอร์นิ่งสติวเด้นท์",
+	"name": "T.Pensri",
+	"dialogue": "Good morning students.",
 	"next": "Intro_14",
 	"background": "classroom",
 	"cha_sprite": "Teacher_1",
@@ -148,8 +148,8 @@
   },
   {
 	"id": "Intro_14",
-	"name": "นักเรียน",
-	"dialogue": "กูดมอร์นิ่งทีชเชอร์",
+	"name": "Student",
+	"dialogue": "Good morning teacher.",
 	"next": "Intro_15",
 	"background": "classroom",
 	"cha_sprite": "blank",
@@ -157,8 +157,8 @@
   },
   {
 	"id": "Intro_15",
-	"name": "ครูเพ็ญศรี",
-	"dialogue": "ฮาวอาร์ยู",
+	"name": "T.Pensri",
+	"dialogue": "How are you?",
 	"next": "Intro_16",
 	"background": "classroom",
 	"cha_sprite": "Teacher_1",
@@ -166,8 +166,8 @@
   },
   {
 	"id": "Intro_16",
-	"name": "นักเรียน",
-	"dialogue": "แอมไฟน์ แต๊งกิ้ว แอนด์ยู๊",
+	"name": "Student",
+	"dialogue": "I'm fine, thank you, and you?",
 	"next": "Intro_17",
 	"background": "classroom",
 	"cha_sprite": "blank",
@@ -175,8 +175,8 @@
   },
   {
 	"id": "Intro_17",
-	"name": "ครูเพ็ญศรี",
-	"dialogue": "แอมไฟน์แอสเวล ยูแคนซิดดาวน์",
+	"name": "T.Pensri",
+	"dialogue": "I'm fine as well. You can sit down.",
 	"next": "Intro_18",
 	"background": "classroom",
 	"cha_sprite": "Teacher_1",
@@ -184,8 +184,8 @@
   },
   {
 	"id": "Intro_18",
-	"name": "นักเรียน",
-	"dialogue": "แต๊งกิ้วทีชเชอร์",
+	"name": "Student",
+	"dialogue": "Thank you teacher.",
 	"next": "Intro_19",
 	"background": "classroom",
 	"cha_sprite": "blank",
@@ -193,8 +193,8 @@
   },
   {
 	"id": "Intro_19",
-	"name": "ครูเพ็ญศรี",
-	"dialogue": "เอาล่ะ อัยรา เธอมาเขียนคำตอบบนกระดานนี้ซิ",
+	"name": "T.Pensri",
+	"dialogue": "Alright, Aira, come write the answer on this board.",
 	"next": "Intro_20",
 	"background": "classroom",
 	"cha_sprite": "Teacher_1",
@@ -202,8 +202,8 @@
   },
   {
 	"id": "Intro_20",
-	"name": "อัยย์",
-	"dialogue": "(โดนเข้าแล้วไง เกลียดอะไรได้อย่างนั้นแท้ๆเลยน้า)",
+	"name": "AI",
+	"dialogue": "(Got called on. What I hate really happens, doesn't it?)",
 	"next": "Intro_21",
 	"background": "classroom",
 	"cha_sprite": "blank",
@@ -211,8 +211,8 @@
   },
   {
 	"id": "Intro_21",
-	"name": "มินิเกม",
-	"dialogue": "กดลูกศรซ้ายขวา  ควบคุมตัวเลื่อนเพื่อโต้กลับคำคำถามที่คุณครูส่งมา",
+	"name": "Minigames",
+	"dialogue": "Press left and right arrows to control the slider to deflect the questions the teacher sends",
 	"next_A": "Intro_22W",
 	"next_B": "Intro_22L",
 	"background": "classroom",
@@ -222,8 +222,8 @@
   },
   {
 	"id": "Intro_22W",
-	"name": "อัยย์",
-	"dialogue": "รอดหวุดหวิด วันนี้ดวงดีชะมัดเลยแฮะ",
+	"name": "AI",
+	"dialogue": "That was close. Today's my lucky day for sure.",
 	"next": "Intro_23",
 	"background": "classroom",
 	"cha_sprite": "blank",
@@ -232,8 +232,8 @@
   },
   {
 	"id": "Intro_22L",
-	"name": "อัยย์",
-	"dialogue": "โอ๊ย คุณครูเค้าแกล้งเรารึเปล่านะ ทำไมถึงโยนมาแต่คำถามยากๆล่ะเนี่ย",
+	"name": "AI",
+	"dialogue": "Ouch. Is the teacher messing with me? Why are they throwing only hard questions at me?",
 	"next": "Intro_23",
 	"background": "classroom",
 	"cha_sprite": "blank",
@@ -242,11 +242,11 @@
   },
   {
 	"id": "Intro_23",
-	"name": "อัยย์",
-	"dialogue": "พักเที่ยงแล้ว ไปไหนดีนะ",
-	"choice_A": "กินข้าวก่อน",
+	"name": "AI",
+	"dialogue": "Lunch break already. Where should I go?",
+	"choice_A": "Eat first",
 	"next_A": "Intro_Rin1",
-	"choice_B": "ห้องน้ำก่อน",
+	"choice_B": "Bathroom first",
 	"next_B": "Intro_Saya1",
 	"background": "hallway",
 	"cha_sprite": "blank",
@@ -254,114 +254,114 @@
   },
   {
 	"id": "Intro_Rin1",
-	"name": "อัยย์",
-	"dialogue": "วันนี้อาหารคนเยอะไปมากเลย น่าจะไปเข้าห้องน้ำรอคนน้อยก่อนแฮะ",
+	"name": "AI",
+	"dialogue": "There are so many people at the cafeteria today. I should go to the bathroom and wait for fewer people",
 	"next": "Intro_Rin2",
 	"background": "canteen",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Rin2",
-	"name": "ริน",
-	"dialogue": "ขอโทษนะ อันนี้เป๋าเตงมั้ย *โชว์กระเป๋าเงืนให้ดู*",
+	"name": "Rin",
+	"dialogue": "Excuse me, is this your wallet? *shows wallet*",
 	"next": "Intro_Rin3",
 	"background": "canteen",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Rin3",
-	"name": "อัยย์",
-	"dialogue": "แว้กก เราทำร่วงตอนไหนเนี่ย ขอบคุณมากเลยนะะ",
+	"name": "AI",
+	"dialogue": "Wow, when did I drop it? Thank you so much!",
 	"next": "Intro_Rin4",
 	"background": "canteen",
 	"cha_sprite": "Rin_neutral"
   },
   {
 	"id": "Intro_Rin4",
-	"name": "ริน",
-	"dialogue": "ไม่เป็นไรจ่ะ",
+	"name": "Rin",
+	"dialogue": "No problem.",
 	"next": "Intro_Rin5",
 	"background": "canteen",
 	"cha_sprite": "Rin_smile"
   },
   {
 	"id": "Intro_Rin5",
-	"dialogue": "รินนิ่งไปสักพัก",
+	"dialogue": "Rin stayed silent for a moment",
 	"next": "Intro_Rin6",
 	"background": "canteen",
 	"cha_sprite": "Rin_akwardsmile"
   },
   {
 	"id": "Intro_Rin6",
-	"name": "อัยย์",
-	"dialogue": "เป็นอะไรรึเปล่า??",
+	"name": "AI",
+	"dialogue": "Is something wrong??",
 	"next": "Intro_Rin7",
 	"background": "canteen",
 	"cha_sprite": "Rin_akwardsmile"
   },
   {
 	"id": "Intro_Rin7",
-	"name": "ริน",
-	"dialogue": "อ๋อ เปล่าจ่ะ ไม่มีอะไร",
+	"name": "Rin",
+	"dialogue": "Oh, no, nothing.",
 	"next": "Intro_Rin8",
 	"background": "canteen",
 	"cha_sprite": "Rin_akwardsmile"
   },
   {
 	"id": "Intro_Rin8",
-	"name": "ริน",
-	"dialogue": "(บ้าน่า เราเป็นดาวโรงเรียน เน็ตไอดอลที่ยอดฟอลเยอะที่สุดในสายชั้น เด็กทูบี ดรัมไม้หนึ่งเลยนะ)",
+	"name": "Rin",
+	"dialogue": "(Crazy. I'm the school star, the net idol with the most followers in my grade,number one drummer. How can they not know me?)",
 	"next": "Intro_Rin9",
 	"background": "canteen",
 	"cha_sprite": "Rin_akwardsmile"
   },
   {
 	"id": "Intro_Rin9",
-	"name": "ริน",
-	"dialogue": "(เค้าไม่รู้จักเราได้ยังไงเนี่ย หรือถ้าไม่รู้จัก อย่างน้อยก็น่าจะตะลึงในความสวยกันสักนิดนึงสิ)",
+	"name": "Rin",
+	"dialogue": "(Or if they don't know me, they should at least be stunned by my beauty a little bit, right?)",
 	"next": "Intro_Rin10",
 	"background": "canteen",
 	"cha_sprite": "Rin_akwardsmile"
   },
   {
 	"id": "Intro_Rin10",
-	"name": "ริน",
-	"dialogue": "ไม่คุ้นหน้าเลย อยู่ห้องไหนหรอ",
+	"name": "Rin",
+	"dialogue": "I don't recognize you at all. What class are you in?",
 	"next": "Intro_Rin11",
 	"background": "canteen",
 	"cha_sprite": "Rin_neutral"
   },
   {
 	"id": "Intro_Rin11",
-	"name": "อัยย์",
-	"dialogue": "อยู่ห้องสี่น่ะ เธอล่ะ",
+	"name": "AI",
+	"dialogue": "I'm in class 4. How about you?",
 	"next": "Intro_Rin12",
 	"background": "canteen",
 	"cha_sprite": "Rin_neutral"
   },
   {
 	"id": "Intro_Rin12",
-	"name": "ริน",
-	"dialogue": "(นี่ไม่รู้จักเราจริงๆด้วยหรอเนี่ยยย จะเป็นลมแล้ว)",
+	"name": "Rin",
+	"dialogue": "(They really don't know me, do they? I'm about to faint.)",
 	"next": "Intro_Rin13",
 	"background": "canteen",
 	"cha_sprite": "Rin_akwardsmile"
   },
   {
 	"id": "Intro_Rin13",
-	"name": "ริน",
-	"dialogue": "เราห้องหนึ่งจ่ะ ไม่แปลกหรอกที่ไม่ค่อยเห็นหน้ากัน วันๆขลุกอยู่แต่ในห้อง",
-	"choice_A": "แซว",
+	"name": "Rin",
+	"dialogue": "I'm in class 1. It's not strange that we don't see each other much. I'm always cooped up in my room all day.",
+	"choice_A": "Tease",
 	"next_A": "Intro_Rin14A",
-	"choice_B": "เยินยอ",
+	"choice_B": "Comply",
 	"next_B": "Intro_Rin14B",
 	"background": "canteen",
 	"cha_sprite": "Rin_smile"
   },
   {
 	"id": "Intro_Rin14A",
-	"name": "อัยย์",
-	"dialogue": "เห้ยดีจัง ไม่ต้องเดินเปลี่ยนคาบน่าจะสบายมากแน่ๆ",
+	"name": "AI",
+	"dialogue": "Hey, that's nice. Not having to walk between classes must be really comfortable.",
 	"next": "Intro_Rin15A",
 	"background": "canteen",
 	"cha_sprite": "Rin_neutral",
@@ -369,16 +369,16 @@
   },
   {
 	"id": "Intro_Rin15A",
-	"name": "ริน",
-	"dialogue": "ฮ่า ไม่หรอก ก็เลยไม่มีเพื่อนต่างห้องเลยนี่ไง",
+	"name": "Rin",
+	"dialogue": "Ha, not really. That's why I don't have any friends from other classes.",
 	"next": "Intro_Rin16",
 	"background": "canteen",
 	"cha_sprite": "Rin_smile"
   },
   {
 	"id": "Intro_Rin14B",
-	"name": "อัยย์",
-	"dialogue": "หูยจริงด้วย เธอมีออร่าเด็กห้องคิงเลยอะ",
+	"name": "AI",
+	"dialogue": "Wow, really. You have such a class king aura.",
 	"next": "Intro_Rin15B",
 	"background": "canteen",
 	"cha_sprite": "Rin_smile",
@@ -386,40 +386,40 @@
   },
   {
 	"id": "Intro_Rin15B",
-	"name": "ริน",
-	"dialogue": "(อะไรกัน ก็รับรู้ถึงออร่าเราอยู่นี่ เอ๊ะ รึเปล่านะ) นิดหน่อยย เพราะดูแลตัวเองด้วยแหละคนอื่นไม่มีหรอกออร่าอะ ห้าๆ",
+	"name": "Rin",
+	"dialogue": "(What? She does sense my aura. Wait, or does she?) A little bit, because I take care of myself. Others don't have auras or anything. Ha ha.",
 	"next": "Intro_Rin16",
 	"background": "canteen",
 	"cha_sprite": "Rin_smile"
   },
   {
 	"id": "Intro_Rin16",
-	"name": "ริน",
-	"dialogue": "แล้วเธอชื่ออะไรหรอ เราชื่อรินนะ",
+	"name": "Rin",
+	"dialogue": "What's your name? I'm Rin.",
 	"next": "Intro_Rin17",
 	"background": "canteen",
 	"cha_sprite": "Rin_smile"
   },
   {
 	"id": "Intro_Rin17",
-	"name": "อัยย์",
-	"dialogue": "เราชื่ออัยย์ *ยิ้ม*",
+	"name": "AI",
+	"dialogue": "I'm Ai. *smiles*",
 	"next": "Intro_Rin18",
 	"background": "canteen",
 	"cha_sprite": "Rin_smile"
   },
   {
 	"id": "Intro_Rin18",
-	"name": "ริน",
-	"dialogue": "ยินดีที่รู้จักนะอัยย์ ดีใจจังที่มีเพื่ออนต่างห้องแล้ว",
+	"name": "Rin",
+	"dialogue": "Nice to meet you, Ai. I'm so glad to finally have a friend from another class.",
 	"next": "Intro_Rin19",
 	"background": "canteen",
 	"cha_sprite": "Rin_neutral"
   },
   {
 	"id": "Intro_Rin19",
-	"name": "ริน",
-	"dialogue": "เรากลับห้องก่อน ไว้วันหลังเจอกันที่โรงอาหารมานั่งด้วยกันได้นะ",
+	"name": "Rin",
+	"dialogue": "I'm going back to my class first. Next time we meet at the cafeteria, we can sit together, okay?",
 	"next": "Intro_25",
 	"background": "canteen",
 	"cha_sprite": "Rin_neutral",
@@ -427,59 +427,59 @@
   },
   {
 	"id": "Intro_Saya1",
-	"name": "อัยย์",
-	"dialogue": "โรงอาหารจะคนน้อยลงรึยังนะ",
+	"name": "AI",
+	"dialogue": "I wonder if the cafeteria has fewer people yet.",
 	"next": "Intro_Saya_2",
 	"background": "toilet",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_2",
-	"name": "ศยา",
-	"dialogue": "*ยื่นหน้าเข้ามาใกล้ๆ*",
+	"name": "Saya",
+	"dialogue": "*leans face in close*",
 	"next": "Intro_Saya_3",
 	"background": "Saya_illust_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_3",
-	"name": "อัยย์",
-	"dialogue": "ตกใจหมดเลย!",
+	"name": "AI",
+	"dialogue": "You scared me",
 	"next": "Intro_Saya_4",
 	"background": "toilet",
 	"cha_sprite": "Saya_neutral"
   },
   {
 	"id": "Intro_Saya_4",
-	"name": "ศยา",
-	"dialogue": "ฮืฮื เธอนี่ขวัญอ่อนจังเลยนะ",
+	"name": "Saya",
+	"dialogue": "Hehe, you're so easily startled.",
 	"next": "Intro_Saya_5",
 	"background": "toilet",
 	"cha_sprite": "Saya_neutral"
   },
   {
 	"id": "Intro_Saya_5",
-	"name": "อัยย์",
-	"dialogue": "ก็อยู่ดีๆเอาหน้ามาใกล้นี่",
+	"name": "AI",
+	"dialogue": "Well, you suddenly got your face so close.",
 	"next": "Intro_Saya_6",
 	"background": "toilet",
 	"cha_sprite": "Saya_neutral"
   },
   {
 	"id": "Intro_Saya_6",
-	"name": "ศยา",
-	"dialogue": "ขอโทษทีน้า~ ก็กระจกข้างๆมันมีคนใช้หมดแล้วนี่นา",
-	"choice_A": "เถียง",
+	"name": "Saya",
+	"dialogue": "Sorry~ The mirrors next to me were all taken.",
+	"choice_A": "Argue",
 	"next_A": "Intro_Saya_7A",
-	"choice_B": "ยอม",
+	"choice_B": "Give in",
 	"next_B": "Intro_Saya_7B",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile"
   },
   {
 	"id": "Intro_Saya_7A",
-	"name": "อัยย์",
-	"dialogue": "ก็รอให้เราใช้เสร็จก่อนสิ แปปเดียวเอง",
+	"name": "AI",
+	"dialogue": "You should wait until I'm done. It'll just be a moment.",
 	"next": "Intro_Saya_8A",
 	"background": "toilet",
 	"cha_sprite": "Saya_neutral",
@@ -487,16 +487,16 @@
   },
   {
 	"id": "Intro_Saya_8A",
-	"name": "ศยา",
-	"dialogue": "(หืม เด็กนี่ไม่กลัวเราเลยหรอ เดี๋ยวต้องหาเวลาสั่งสอนสักหน่อย แต่คนไม่เยอะแฮะ ไม่รู้จะฟาดโชว์ใคร)",
+	"name": "Saya",
+	"dialogue": "(Hmm, this kid isn't scared of me at all? I'll have to teach them a lesson sometime. But there aren't many people here. Don't know who to show off to.)",
 	"next": "Intro_Saya_9",
 	"background": "toilet",
 	"cha_sprite": "Saya_angry"
   },
   {
 	"id": "Intro_Saya_7B",
-	"name": "ศยา",
-	"dialogue": "(หงอใส่เฉยเลย น่ารักแฮะ)",
+	"name": "Saya",
+	"dialogue": "(Just staring blankly at me. Cute.)",
 	"next": "Intro_Saya_9",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile",
@@ -504,67 +504,67 @@
   },
   {
 	"id": "Intro_Saya_9",
-	"name": "ศยา",
-	"dialogue": "เธอชื่ออะไรหรอ? เราศยานะ",
+	"name": "Saya",
+	"dialogue": "What's your name? I'm Saya.",
 	"next": "Intro_Saya_10",
 	"background": "toilet",
 	"cha_sprite": "Saya_neutral"
   },
   {
 	"id": "Intro_Saya_10",
-	"name": "อัยย์",
-	"dialogue": "เราชื่ออัยย์",
+	"name": "AI",
+	"dialogue": "I'm Ai.",
 	"next": "Intro_Saya_11",
 	"background": "toilet",
 	"cha_sprite": "Saya_neutral"
   },
   {
 	"id": "Intro_Saya_11",
-	"name": "ศยา",
-	"dialogue": "อัยย์ห้องสี่ใช่รึเปล่า",
+	"name": "Saya",
+	"dialogue": "Ai from class 4, right?",
 	"next": "Intro_Saya_12",
 	"background": "toilet",
 	"cha_sprite": "Saya_neutral"
   },
   {
 	"id": "Intro_Saya_12",
-	"name": "อัยย์",
-	"dialogue": "อ๊ะ รู้ได้ไงน่ะ",
+	"name": "AI",
+	"dialogue": "Huh? How did you know?",
 	"next": "Intro_Saya_13",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile"
   },
   {
 	"id": "Intro_Saya_13",
-	"name": "ศยา",
-	"dialogue": "เซนส์น่ะ ฮ่าๆ หยอกเล่น เราก็มีเพื่อนอยู่ห้องสี่แล้วเคยไปหาก็เลยเห็น",
+	"name": "Saya",
+	"dialogue": "Intuition. Ha ha, just kidding. I have a friend in class 4 and I've been there before, so I've seen you.",
 	"next": "Intro_Saya_14",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile"
   },
   {
 	"id": "Intro_Saya_14",
-	"name": "อัยย์",
-	"dialogue": "แล้วศยาอยู่ห้องไหนหรอ เราไม่เห็นจำได้ว่าเคยเจอ",
+	"name": "AI",
+	"dialogue": "Which class are you in? I don't remember seeing you.",
 	"next": "Intro_Saya_15",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile"
   },
   {
 	"id": "Intro_Saya_15",
-	"name": "ศยา",
-	"dialogue": "ฮี่ๆ ไม่บอกจ้า ถ้าจะบอกต้องมีอะไรมาแลกนะ",
-	"choice_A": "ยอม",
+	"name": "Saya",
+	"dialogue": "Hehe, I won't tell. If I'm going to tell you, I need something in exchange.",
+	"choice_A": "Agree",
 	"next_A": "Intro_Saya_16A",
-	"choice_B": "ไม่ยอม",
+	"choice_B": "Refuse",
 	"next_B": "Intro_Saya_16B",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile"
   },
   {
 	"id": "Intro_Saya_16A",
-	"name": "อัยย์",
-	"dialogue": "ต้องแลกกับอะไรหรอ?",
+	"name": "AI",
+	"dialogue": "What do I have to exchange?",
 	"next": "Intro_Saya_17A",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile",
@@ -572,16 +572,16 @@
   },
   {
 	"id": "Intro_Saya_17A",
-	"name": "ศยา",
-	"dialogue": "หึ้ย ทำไมหงอแบบนี้ล่ะ ฮ่าๆๆ เราล้อเล่น ไม่ต้องแลกอะไรหรอก",
+	"name": "Saya",
+	"dialogue": "Hey, why are you so gullible? Ha ha ha, I'm just teasing. You don't have to exchange anything.",
 	"next": "Intro_Saya_18",
 	"background": "toilet",
 	"cha_sprite": "Saya_threaten"
   },
   {
 	"id": "Intro_Saya_16B",
-	"name": "อัยย์",
-	"dialogue": "ไม่เอาอะ ไม่เห็นอยากรู้เลย",
+	"name": "AI",
+	"dialogue": "No way. I don't even want to know.",
 	"next": "Intro_Saya_17B",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile",
@@ -589,16 +589,16 @@
   },
   {
 	"id": "Intro_Saya_17B",
-	"name": "ศยา",
-	"dialogue": "โหยไม่อยากรู้จริงๆหรอ จริงๆอยากรู้อะดิ อะดิ",
+	"name": "Saya",
+	"dialogue": "Hey, you really don't want to know? Really, you want to know, don't you? Don't you?",
 	"next": "Intro_Saya_18",
 	"background": "toilet",
 	"cha_sprite": "Saya_threaten"
   },
   {
 	"id": "Intro_Saya_18",
-	"name": "ศยา",
-	"dialogue": "ไว้เดี๋ยวเจอกันครั้งหน้าเราบอกนะ",
+	"name": "Saya",
+	"dialogue": "Next time we meet, I'll tell you.",
 	"next": "Intro_Saya_19",
 	"background": "toilet",
 	"cha_sprite": "Saya_smile",
@@ -606,50 +606,50 @@
   },
   {
 	"id": "Intro_Saya_19",
-	"name": "อัยย์",
-	"dialogue": "อ้าว ไปซะแล้ว",
+	"name": "AI",
+	"dialogue": "Oh, she's gone already.",
 	"next": "Intro_25",
 	"background": "toilet",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_25",
-	"name": "อัยย์",
-	"dialogue": "คาบบ่ายรอดตัวไป ดีนะที่เรียนวิทย์ครูศรีสุรางค์น่ะใจดีสุดๆไม่ดุเด็กเลย",
+	"name": "AI",
+	"dialogue": "Survived the afternoon classes. Good thing we had science with Teacher Srisurang, who's super nice and never scolds students.",
 	"next": "Intro_26",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_26",
-	"name": "อัยย์",
-	"dialogue": "แต่ความสงบมันจบแล้ว พอพ้นช่วงเย็นไป",
+	"name": "AI",
+	"dialogue": "But the peace is over, once evening passes.",
 	"next": "Intro_27",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_27",
-	"name": "อัยย์",
-	"dialogue": "วันที่สี่แล้ว ก็รู้แล้วล่ะนะว่าหลังจากหลับตานอนไปแล้วจะเจออะไร",
+	"name": "AI",
+	"dialogue": "Day four already. I already know what I'll encounter after I fall asleep.",
 	"next": "Intro_28",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_28",
-	"name": "กบ",
-	"dialogue": "นี่ไง จนได้ ทุกครั้งเลยที่พอกลายเป็นกบแล้วจะมารู้สึกตัวที่สวนหลังบ้านแบบนี้",
+	"name": "Frog",
+	"dialogue": "There it is. Every time I turn into a frog, I regain consciousness in the backyard like this.",
 	"next": "Intro_29",
-	"cha_sprite": "blank",
+	"background": "night_explore_1",
 	"ai_reaction": "frog_idle"
   },
   {
 	"id": "Intro_29",
-	"name": "กบ",
-	"dialogue": "เอาล่ะ วันนี้จะทำไงดีนะ",
-	"choice_A": "หาอาหาร",
+	"name": "Frog",
+	"dialogue": "Alright, what should I do today?",
+	"choice_A": "Find food",
 	"next_A": "food_1",
-	"choice_B": "สำรวจ",
+	"choice_B": "Explore",
 	"next_B": "flagcheck_1",
-	"cha_sprite": "blank"
+	"background": "night_explore_1"
   },
   {
 	"id": "food_1",
@@ -660,8 +660,8 @@
   },
   {
 	"id": "food_2",
-	"name": "กบ",
-	"dialogue": "อิ่มแล้ว อ๊ะ.. นั่นมัน",
+	"name": "Frog",
+	"dialogue": "I'm full. Oh... that's",
 	"next": "flagcheck_1"
   },
   {
@@ -683,410 +683,453 @@
   },
   {
 	"id": "Intro_Saya_n1",
-	"dialogue": "คุณได้ยินเสียงหญ้าดังกรอบแกรบและมองเห็นการสั่นไหวเบาๆ ปรากฎให้เห็นนัยตาสีเหลืองสด",
+	"dialogue": "You hear the sound of grass crunching and see a slight trembling. Bright yellow eyes appear.",
 	"next": "Intro_Saya_n2",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n2",
-	"name": "เงาลึกลับ",
-	"dialogue": "เราเคยเจอกันมาก่อนหรือเปล่า เจ้ากบน้อยน่ารัก",
+	"name": "Shadows",
+	"dialogue": "Have we met before, cute little frog?",
 	"next": "Intro_Saya_n3",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n3",
-	"dialogue": "ไม่ทันสิ้นเสียง สัญชาติญาณของสัตว์ครึ่งบกครึ่งน้ำตัวเล็กจ้อยก็เริ่มทำงาน",
+	"dialogue": "Before the voice finished, the instinct of the small amphibian started working",
 	"next": "Intro_Saya_n4",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n4",
-	"dialogue": "มันสั่งให้คุณหนีทันที แต่ทันใดนั้นเอง",
+	"dialogue": "It commanded you to flee immediately. But suddenly,",
 	"next": "Intro_Saya_n5",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n5",
-	"name": "เงาลึกลับ",
-	"dialogue": "เดี๋ยวก่อน อย่าเพิ่งไปสิ มาอยู่คุยกันก่อนเถอะ วันนี้เราอิ่มแล้ว ไม่กินเธอหรอกนะ ฮิฮิ",
-	"choice_A": "หนี",
+	"name": "Shadows",
+	"dialogue": "Wait. Don't go yet. Let's stay and chat. I'm already full today. I won't eat you. Hehe.",
+	"choice_A": "Run away",
 	"next_A": "Intro_Saya_n6",
-	"choice_B": "อยู่ก่อน",
+	"choice_B": "Stay for now",
 	"next_B": "Intro_Saya_n6",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n6",
-	"name": "เงาลึกลับ",
-	"dialogue": "ไม่ทันไร มันก็พุ่งมาวนรอบตัวคุณเหมือนกับการรัดแต่เบากว่ามาก เหมือนกับมันจะเล่นกับเหยื่อมากกว่าจะกิน",
+	"name": "Shadows",
+	"dialogue": "Before you could react, it lunged and coiled around you like restraining but lighter. Like it was playing with its prey rather than eating it.",
 	"next": "Intro_Saya_n7",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n7",
-	"name": "งู",
-	"dialogue": "กลัวหรอ ก็ควรกลัวแหละนะ ตัวเธอสั่นไปหมดแล้วนี่นา",
-	"choice_A": "กลัว",
+	"name": "Snake",
+	"dialogue": "Are you scared? You should be scared. Your whole body is shaking.",
+	"choice_A": "Scared",
 	"next_A": "Intro_Saya_n8A",
-	"choice_B": "ไม่กลัว",
+	"choice_B": "Not scared",
 	"next_B": "Intro_Saya_n8B",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n8A",
-	"name": "งู",
-	"dialogue": "ซื่อสัตย์ดีจังเลยนะ แต่ ถ้าไม่กลัวก็แปลกมากๆแล้วล่ะ",
+	"name": "Snake",
+	"dialogue": "You're so honest. But if you weren't scared, that would be really strange.",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n9A",
-	"name": "งูู",
-	"dialogue": "เพราะถ้าแค่ฉันปักเขี้ยวนี่เข้าไป เธอก็ตายแล้วนี่นา",
+	"name": "Snake",
+	"dialogue": "Because if I just sink these fangs in, you'd be dead.",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n10A",
-	"dialogue": "มันเอาเขี้ยวมาลูบไล้บริเวณแก้มของคุณ",
+	"dialogue": "It rubbed its fangs along your cheek area",
 	"next": "Intro_Saya_n12",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n8B",
-	"name": "งู",
-	"dialogue": "ทำไมถึงไม่กลัวล่ะ่ หืม",
-	"choice_A": "ชื่นชม",
+	"name": "Snake",
+	"dialogue": "Why aren't you scared? Hmm.",
+	"choice_A": "Admire",
 	"next_A": "Intro_Saya_n9B1",
-	"choice_B": "ใจสู้",
+	"choice_B": "Be brave",
 	"next_B": "Intro_Saya_n9B2",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n9B1",
-	"name": "กบ",
-	"dialogue": "เพราะเธอสวยยังไงล่ะ",
+	"name": "Frog",
+	"dialogue": "Because you're beautiful, that's why.",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n9B2",
-	"name": "กบ",
-	"dialogue": "ฉ ฉันไม่กลัวเธอหรอก!",
+	"name": "Frog",
+	"dialogue": "I... I'm not scared of you!",
 	"next": "Intro_Saya_end1",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_end1",
-	"dialogue": "คำพูดดึงดันของคุณทำให้งูตัวนั้นหมดความออดทน",
+	"dialogue": "Your stubborn words made the snake lose patience.",
 	"next": "Intro_Saya_end2",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_end2",
-	"name": "งู",
-	"dialogue": "มั่นนักนะ รู้ไหมว่าฉันเริ่มอยากทำลายความมั่นใจและความแข็งแกร่งจอมปลอมนั่นของเธอแล้ว",
+	"name": "Snake",
+	"dialogue": "You're so confident. Do you know I'm starting to want to destroy that fake confidence and strength of yours?",
 	"next": "Intro_Saya_end3",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_end3",
-	"dialogue": "งูตัวนั้นปักเขี้ยวลงบนตัวคุณ",
+	"dialogue": "The snake sank its fangs into you.",
 	"next": "Intro_Saya_end4",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_end4",
-	"dialogue": "ค่ำคืนนี้เป็นค่ำคืนสุดท้ายของเด็กสาว วันต่อไปที่โรงเรียนก็ไม่มีใครพบเธออีกเลย",
+	"dialogue": "This night was the girl's last night. The next day at school, no one saw her again.",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n10B",
-	"name": "งู",
-	"dialogue": "ห๊ะ.... จริงดิ ฮ่าๆๆๆๆๆ",
+	"name": "Snake",
+	"dialogue": "Huh... really. Ha ha ha ha ha",
 	"next": "Intro_Saya_n11B",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n11B",
-	"name": "งู",
-	"dialogue": "เธอนี่แปลกจริงๆ เราสามารถฆ่าเธอได้แต่เธอกลับมองว่าสวยอย่างนั้นหรอ ฮ่าๆๆๆๆ เธอนี่น่าสนใจจังเลยนะ",
+	"name": "Snake",
+	"dialogue": "You're really strange. I could kill you but you think I'm beautiful? Ha ha ha ha, you're very interesting.",
 	"next": "Intro_Saya_n12",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n12",
-	"name": "งู",
-	"dialogue": "แต่วันนี้เธอโชคดีไปนะ เราต้องไปแล้วล่ะ วันนี้เราเพลิดเพลินกับการล่าเพื่อนๆของเธอไปเยอะแล้ว",
+	"name": "Snake",
+	"dialogue": "But today you're lucky. I have to go now. Today I already enjoyed hunting your friends plenty.",
 	"next": "Intro_Saya_n13",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Saya_n13",
-	"dialogue": "แล้วงูตัวนั้นก็หายไปอย่างไร้ร่องรอย",
+	"dialogue": "And then the snake disappeared without a trace.",
 	"next": "Intro_30",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Rin_n1",
-	"dialogue": "คุณเห็นผีเสื้อกลางวันตัวหนึ่งกำลังเกาะอยู่กับต้นไม้เพื่อพักผ่อน",
+	"dialogue": "You see a butterfly perched on a tree resting.",
 	"next": "Intro_Rin_n2",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Rin_n2",
-	"dialogue": "แต่ดูไม่ออกเลยว่ามันกำลังหลับหรือตื่นอยู่ ถึงแม้จะไม่มีท่าทีจะขยับตัวเลยก็ตาม",
+	"dialogue": "But you can't tell if it's asleep or awake, even though it shows no signs of moving at all.",
 	"next": "Intro_Rin_n3",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Rin_n3",
-	"name": "กบ",
+	"name": "Frog",
 	"dialogue": "...",
-	"choice_A": "ลองเรียกดู",
+	"choice_A": "Try calling out",
 	"next_A": "Intro_Rin_n4",
-	"choice_B": "ยืนมอง",
+	"choice_B": "Stand and watch",
 	"next_B": "Intro_Rin_n4",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_Rin_n4",
-	"name": "ผีเสื้อ",
-	"dialogue": "อย่าเข้ามานะ... ไม่งั้นล่ะก็จะบินหนีจริงๆด้วย ถ้าเธอขยับตัวแม้แต่นนิดเดียว",
-	"choice_A": "เป็นมิตร",
-	"next_A": "Intro_Rin_5A",
-	"choice_B": "ยืนมอง",
-	"next_B": "Intro_Rin_5B",
+	"name": "Butterfly",
+	"dialogue": "Don't come closer... or I'll really fly away. If you move even one bit.",
+	"choice_A": "Be friendly",
+	"next_A": "Intro_Rin_n5A",
+	"choice_B": "Stand and watch",
+	"next_B": "Intro_Rin_n5B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_5A",
-	"name": "กบ",
-	"dialogue": "ฉันไม่ได้จะทำอะไรเธอนะ",
+	"id": "Intro_Rin_n5A",
+	"name": "Frog",
+	"dialogue": "I won't do anything to you.",
+	"next": "Intro_Rin_n6A",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_6A",
-	"name": "ผีเสื้อ",
-	"dialogue": "ฉันจะเชื่อใจกบที่เพื่งเจอได้มากแค่ไหนกัน",
+	"id": "Intro_Rin_n6A",
+	"name": "Butterfly",
+	"dialogue": "How much can I trust a frog I just met?",
+	"next": "Intro_Rin_n7",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_5B",
-	"dialogue": "ทั้งคู่ไม่มีใครพูดอะไรอยู่สักพัก...",
+	"id": "Intro_Rin_n5B",
+	"dialogue": "Both stayed silent for a while..",
+	"next": "Intro_Rin_n6B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_6B",
-	"name": "ผีเสื้อ",
-	"dialogue": "นี่ พูดอะไรบ้างสิ..",
+	"id": "Intro_Rin_n6B",
+	"name": "Butterfly",
+	"dialogue": "Hey, say something...",
+	"next": "Intro_Rin_n7",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_7",
-	"name": "ผีเสื้อ",
-	"dialogue": "ตอนนี้เราดูเป็นยังไงบ้าง",
-	"choice_A": "ดูกลัว",
-	"next_A": "Intro_Rin_8A",
-	"choice_B": "ดูสวย",
-	"next_B": "Intro_Rin_8B",
+	"id": "Intro_Rin_n7",
+	"name": "Butterfly",
+	"dialogue": "How do I look right now?",
+	"choice_A": "Look scared",
+	"next_A": "Intro_Rin_n8A",
+	"choice_B": "Look beautiful",
+	"next_B": "Intro_Rin_n8B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_8A",
-	"name": "กบ",
-	"dialogue": "เธอดูกลัวๆนะ",
+	"id": "Intro_Rin_n8A",
+	"name": "Frog",
+	"dialogue": "You look scared",
+	"next": "Intro_Rin_n9A",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_9A",
-	"name": "ผีเสื้อ",
-	"dialogue": "ใช่สิ ฉันกลัว กลัวมากๆด้วย",
+	"id": "Intro_Rin_n9A",
+	"name": "Butterfly",
+	"dialogue": "Yes. I'm scared. Very scared.",
+	"next": "Intro_Rin_n10A",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_10A",
-	"name": "ผีเสื้อ",
-	"dialogue": "ในตอนกลางคืนไม่มีแสงอาทิตย์ ดอกไม้บาน เหล่าผึ้งที่คอยมาชื่นชมฉัน",
+	"id": "Intro_Rin_n10A",
+	"name": "Butterfly",
+	"dialogue": "At night there's no sunlight, blooming flowers, or bees coming to admire me.",
+	"next": "Intro_Rin_n11A",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_11A",
-	"name": "ผีเสื้อ",
-	"dialogue": "ตอนกลางวันที่ถูกรายล้อมและชื่นชมเท่านั้นถึงจะรู้สึกปลอดภัย",
+	"id": "Intro_Rin_n11A",
+	"name": "Butterfly",
+	"dialogue": "I only feel safe during the day when I'm surrounded and admired.",
+	"next": "Intro_Rin_n12",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_8B",
-	"name": "กบ",
-	"dialogue": "ปีกเธอสวยมากเลยนะ",
+	"id": "Intro_Rin_n8B",
+	"name": "Frog",
+	"dialogue": "Your wings are very beautiful.",
+	"next": "Intro_Rin_n9B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_9B",
-	"name": "ผีเสื้อ",
-	"dialogue": "สวยหรอ แม้แต่ตอนกลางคืนที่มองไม่เห็นอะไรเลยแบบนี้",
+	"id": "Intro_Rin_n9B",
+	"name": "Butterfly",
+	"dialogue": "Beautiful? Even at night when you can't see anything like this?",
+	"next": "Intro_Rin_n10B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_10B",
-	"name": "ผีเสื้อ",
-	"dialogue": "ฉันรู้สึกว่าตัวเองสวย แค่ตอนกลางวันที่มีแต่พวกผึ้งมาสนใจเท่านั้น",
+	"id": "Intro_Rin_n10B",
+	"name": "Butterfly",
+	"dialogue": "I feel beautiful only during the day when the bees come to pay attention to me.",
+	"next": "Intro_Rin_n11B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_11B",
-	"name": "ผีเสื้อ",
-	"dialogue": "พวกนั้นบอกว่าฉันน่ะเหมือนดอกไม้ ด้วยนะ",
+	"id": "Intro_Rin_n11B",
+	"name": "Butterfly",
+	"dialogue": "They say I'm like a flower, you know.",
+	"next": "Intro_Rin_n12",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin12",
-	"name": "ผีเสื้อ",
-	"dialogue": "ตอนนี้ไม่มีแล้ว ฉันไม่คิดว่าตัวเองจะอยู่ถึงเช้าได้ด้วยซ้ำ",
-	"choice_A": "ยืนยันคำชม",
-	"choice_B": "เดี๋ยวอยู่เป็นเพื่อน",
+	"id": "Intro_Rin_n12",
+	"name": "Butterfly",
+	"dialogue": "Not now. I don't think I'll even survive until morning.",
+	"choice_A": "Reaffirm the compliment",
+	"next_A": "Intro_Rin_n13A",
+	"choice_B": "I'll stay and be your friend",
+	"next_B": "Intro_Rin_n13B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_13A",
-	"name": "กบ",
-	"dialogue": "เราก็ยังคิดว่าเธอสวยอยู่ดีนะ",
+	"id": "Intro_Rin_n13A",
+	"name": "Frog",
+	"dialogue": "I still think you're beautiful.",
+	"next": "Intro_Rin_n14A",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_14A",
-	"name": "ผีเสื้อ",
-	"dialogue": "ปกติพวกผึ้งจะชมเพราะอยากอยู่ใกล้ฉันที่เป็นจุดสนใจ บางคนก็อยากให้แบ่งน้ำหวานให้",
+	"id": "Intro_Rin_n14A",
+	"name": "Butterfly",
+	"dialogue": "Usually the bees compliment me because they want to be near me, \nthe center of attention. Some want me to share nectar.",
+	"next": "Intro_Rin_n15",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_13B",
-	"name": "กบ",
-	"dialogue": "งั้นเดี๋ยวเราอยู่เป็นเพื่อนให้เอง ได้มั้ย",
+	"id": "Intro_Rin_n13B",
+	"name": "Frog",
+	"dialogue": "Then I'll stay and be your friend. Is that okay?",
+	"next": "Intro_Rin_n14B",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_14B",
-	"name": "ผีเสื้อ",
-	"dialogue": "เธอเป็นผู้ล่าที่ใจเย็นดีนะ",
+	"id": "Intro_Rin_n14B",
+	"name": "Butterfly",
+	"dialogue": "You're a very patient hunter.",
+	"next": "Intro_Rin_n15",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_15",
-	"name": "ผีเสื้อ",
-	"dialogue": "ฉันคงโง่มากแน่ๆถ้าไม่รู้ว่าเธอต้องการอะไรจากฉัน",
+	"id": "Intro_Rin_n15",
+	"name": "Butterfly",
+	"dialogue": "I'd be really stupid if I didn't know what you want from me.",
+	"next": "Intro_Rin_n16",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_16",
-	"dialogue": "แล้วผีเสื้อก็หยุดนิ่งอยู่กับที่อีก เหมือนตัวมันเองจะไม่ขยับไปไหนจนกว่าจะเห็นแสงตะวัน",
+	"id": "Intro_Rin_n16",
+	"dialogue": "And then the butterfly stopped moving again. Like it wouldn't budge until it saw sunlight.",
+	"next": "Intro_Rin_n17",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
-	"id": "Intro_Rin_17",
-	"dialogue": "ด้วยความอ่อนเพลีย คุณเผลอหลับไป",
+	"id": "Intro_Rin_n17",
+	"dialogue": "Exhausted, you accidentally fell asleep.",
+	"next": "Intro_30",
 	"background": "night_butterfly_1",
 	"cha_sprite": "blank"
   },
   {
 	"id": "Intro_30",
-	"dialogue": "เช้าวันต่อมา"
+	"dialogue": "The next morning",
+	"next": "Intro_31"
   },
   {
 	"id": "Intro_31",
-	"name": "มะลิ",
-	"dialogue": "อัยย์ๆทำหน้าเหนื่อยอีกแล้ว อย่างกับไปเจออะไรหนักๆมาเลย"
+	"name": "Mali",
+	"dialogue": "Ai, you look tired again. Like you encountered something heavy.",
+	"next": "Intro_32",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_32",
-	"name": "มะลิ",
-	"dialogue": "มาๆเดี๋ยวเค้ากอดเอง"
+	"name": "Mali",
+	"dialogue": "Come here, I'll hug you.",
+	"next": "Intro_33",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_33",
-	"name": "อัยย์",
+	"name": "Ai",
 	"dialogue": "....",
-	"choice_A": "กอดตอบ",
-	"choice_B": "ปล่อยให้กอด"
+	"choice_A": "Hug back",
+	"next_A": "Intro_34A",
+	"choice_B": "Let her hug",
+	"next_B": "Intro_34B",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_34A",
-	"name": "มะลิ",
-	"dialogue": "โถๆ หายากนะอัยย์กอดเค้าตอบแบบนี้ ไปเจออะไรมาจริงๆหรือเปล่า"
+	"name": "Mali",
+	"dialogue": "Wow, it's rare for Ai to hug me back like this. Did you really encounter something?",
+	"background": "Intro_35A",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_35A",
-	"name": "มะลิ",
-	"dialogue": "กอดน้ากอดน้า อัยย์ยังมีเค้าอยู่ทั้งคนนะ"
+	"name": "Mali",
+	"dialogue": "Hug, hug. You still have me, you know.",
+	"background": "Intro_36A",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_36A",
-	"name": "มะลิ",
-	"dialogue": "ไว้ถ้าพร้อมเล่าเมื่อไร ค่อยเล่าให้เราฟังก็ได้ แต่ตอนนี้เราจะกอดอัยย์อยู่อย่างนี้แหละ"
+	"name": "Mali",
+	"dialogue": "When you're ready to tell me, you can. But for now, I'll keep hugging you like this.",
+	"background": "Intro_37",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_34B",
-	"name": "มะลิ",
-	"dialogue": "โอ๋เอ๋ซึมอีกแล้ว อยากรู้จังว่าพลังงานที่เค้าส่งให้ทุกวันจะไปถึงมั้ยน้า"
+	"name": "Mali",
+	"dialogue": "Oh dear, you're being gloomy again. I wonder if the energy I send you every day is getting through.",
+	"background": "Intro_34B",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_35B",
-	"name": "มะลิ",
-	"dialogue": "..."
+	"name": "Mali",
+	"dialogue": "...",
+	"background": "Intro_35B",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_36B",
-	"name": "มะลิ",
-	"dialogue": "ไม่เป็นไรนะคะ เดี๋ยวเค้าจะส่งให้อัยย์อยู่อย่างนี้แหละ"
+	"name": "Mali",
+	"dialogue": "It's okay. I'll keep sending it to you like this.",
+	"background": "Intro_37",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_37",
-	"name": "อัยย์",
-	"dialogue": "....ขอบคุณนะ"
+	"name": "Ai",
+	"dialogue": "...Thank you.",
+	"background": "Intro_38",
+	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_38"

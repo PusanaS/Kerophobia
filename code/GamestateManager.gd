@@ -293,6 +293,32 @@ func trigger_dynamic_event():
 	else:
 		print("No suitable event found.")
 
+	# ============ Flag Check System ============
+func process_flagcheck(event: Dictionary) -> String:
+	if !event.has("condition_flag") or !event.has("condition_operator"):
+		print("⚠️ Invalid flagcheck event:", event)
+		return event.get("next", "")
+	
+	var flag_name = event["condition_flag"]
+	var op = event["condition_operator"]
+	var value = int(event.get("condition_value", 0))
+	var flag_val = int(get_flag(flag_name, 0))
+	
+	var result := false
+	match op:
+		">": result = flag_val > value
+		">=": result = flag_val >= value
+		"<": result = flag_val < value
+		"<=": result = flag_val <= value
+		"==": result = flag_val == value
+		"!=": result = flag_val != value
+	
+	if result:
+		return event.get("next_A", "")
+	else:
+		return event.get("next_B", "")
+
+
 # ยูทิลิตี้เล็ก ๆ สำหรับสุ่มจากรายการ
 func _get_random_event(event_list: Array) -> String:
 	if event_list.is_empty():

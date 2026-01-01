@@ -97,6 +97,15 @@ func show_event_by_id(event_id: String):
 		print("ERROR: Event not found:", event_id)
 		return
 
+	# ✅ ตรวจว่าเป็น flagcheck หรือไม่
+	if current_event["id"].begins_with("flagcheck"):
+		var next_id = GamestateManager.process_flagcheck(current_event)
+		if next_id != "":
+			show_event_by_id(next_id)
+		else:
+			print("⚠️ No valid next event found for flagcheck:", current_event["id"])
+		return
+
 	name_label.text = current_event.get("name", "")
 	full_text = current_event.get("dialogue", "")
 
