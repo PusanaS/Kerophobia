@@ -585,14 +585,14 @@ theme_override_font_sizes/font_size = 13
 [node name="Ai" type="AnimatedSprite2D" parent="DialogueManager"]
 position = Vector2(1, 124)
 sprite_frames = SubResource("SpriteFrames_p7rxf")
-animation = &"frog_idle"
+animation = &"Ai_smile"
 autoplay = "Ai_idle"
 centered = false
 
 [node name="Bg" type="AnimatedSprite2D" parent="DialogueManager"]
 position = Vector2(103, 14)
 sprite_frames = SubResource("SpriteFrames_mrf7k")
-animation = &"night_explore_1"
+animation = &"school"
 centered = false
 
 [node name="Cha" type="AnimatedSprite2D" parent="DialogueManager"]

@@ -744,6 +744,7 @@
 	"id": "Intro_Saya_n8A",
 	"name": "Snake",
 	"dialogue": "You're so honest. But if you weren't scared, that would be really strange.",
+	"next": "Intro_Saya_n9A",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
@@ -751,6 +752,7 @@
 	"id": "Intro_Saya_n9A",
 	"name": "Snake",
 	"dialogue": "Because if I just sink these fangs in, you'd be dead.",
+	"next": "Intro_Saya_n10A",
 	"background": "night_snake_1",
 	"cha_sprite": "blank"
   },
@@ -807,13 +809,15 @@
 	"dialogue": "The snake sank its fangs into you.",
 	"next": "Intro_Saya_end4",
 	"background": "night_snake_1",
-	"cha_sprite": "blank"
+	"cha_sprite": "blank",
+	"ai_reaction": "frog_dead"
   },
   {
 	"id": "Intro_Saya_end4",
 	"dialogue": "This night was the girl's last night. The next day at school, no one saw her again.",
 	"background": "night_snake_1",
-	"cha_sprite": "blank"
+	"cha_sprite": "blank",
+	"ai_reaction": "frog_dead"
   },
   {
 	"id": "Intro_Saya_n10B",
@@ -1056,13 +1060,15 @@
   {
 	"id": "Intro_30",
 	"dialogue": "The next morning",
-	"next": "Intro_31"
+	"next": "Intro_31",
+	"background": "school"
   },
   {
 	"id": "Intro_31",
 	"name": "Mali",
 	"dialogue": "Ai, you look tired again. Like you encountered something heavy.",
 	"next": "Intro_32",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
@@ -1070,6 +1076,7 @@
 	"name": "Mali",
 	"dialogue": "Come here, I'll hug you.",
 	"next": "Intro_33",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
@@ -1080,55 +1087,63 @@
 	"next_A": "Intro_34A",
 	"choice_B": "Let her hug",
 	"next_B": "Intro_34B",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_34A",
 	"name": "Mali",
 	"dialogue": "Wow, it's rare for Ai to hug me back like this. Did you really encounter something?",
-	"background": "Intro_35A",
+	"next": "Intro_35A",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_35A",
 	"name": "Mali",
 	"dialogue": "Hug, hug. You still have me, you know.",
-	"background": "Intro_36A",
+	"next": "Intro_36A",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_36A",
 	"name": "Mali",
 	"dialogue": "When you're ready to tell me, you can. But for now, I'll keep hugging you like this.",
-	"background": "Intro_37",
+	"next": "Intro_37",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_34B",
 	"name": "Mali",
 	"dialogue": "Oh dear, you're being gloomy again. I wonder if the energy I send you every day is getting through.",
-	"background": "Intro_34B",
+	"next": "Intro_34B",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_35B",
 	"name": "Mali",
 	"dialogue": "...",
-	"background": "Intro_35B",
+	"next": "Intro_35B",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_36B",
 	"name": "Mali",
 	"dialogue": "It's okay. I'll keep sending it to you like this.",
-	"background": "Intro_37",
+	"next": "Intro_37",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
 	"id": "Intro_37",
 	"name": "Ai",
 	"dialogue": "...Thank you.",
-	"background": "Intro_38",
+	"next": "Intro_38",
+	"background": "hallway",
 	"cha_sprite": "Mali_smile"
   },
   {
